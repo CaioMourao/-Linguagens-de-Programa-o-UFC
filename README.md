@@ -11,30 +11,44 @@ A proposta consiste em resolver 14 desafios temáticos, cada um abordando um dos
 │
 ├── README.md # Visão geral e orientações
 
-├── 01-introducao/                 # Linha do tempo da evolução das linguagens
+├── 01-introducao/                 
+# Linha do tempo da evolução das linguagens
 
-├── 02-ambientes/                  # Diagrama e explicação sobre ambientes de programação
+├── 02-ambientes/                  
+# Diagrama e explicação sobre ambientes de programação
 
-├── 03-sintaxe-semantica/          # Mini-gramática fictícia + análise léxica
+├── 03-sintaxe-semantica/          
+# Mini-gramática fictícia + análise léxica
 
-├── 04-tipos-de-dados/             # Comparação entre tipagens de linguagens
+├── 04-tipos-de-dados/            
+# Comparação entre tipagens de linguagens
 
-├── 05-estruturas-de-controle/     # Exemplo com estruturas de seleção e repetição
+├── 05-estruturas-de-controle/    
+# Exemplo com estruturas de seleção e repetição
 
-├── 06-subprogramas/                 # Funções com passagem por valor e referência
+├── 06-subprogramas/                 
+# Funções com passagem por valor e referência
 
-├── 07-implementacao-subprogramas/   # Pilha de chamadas de um exemplo recursivo
+├── 07-implementacao-subprogramas/   
+# Pilha de chamadas de um exemplo recursivo
 
-├── 08-orientacao-objetos/         # Hierarquia de classes com POO
+├── 08-orientacao-objetos/         
+# Hierarquia de classes com POO
 
-├── 09-concorrencia/               # Implementação com threads/processos
+├── 09-concorrencia/               
+# Implementação com threads/processos
 
-├── 10-gerenciamento-memoria/      # Comparativo sobre gerenciamento de memória
+├── 10-gerenciamento-memoria/     
+# Comparativo sobre gerenciamento de memória
 
-├── 11-programacao-funcional/      # Solução funcional com recursão e funções de alta ordem
+├── 11-programacao-funcional/      
+# Solução funcional com recursão e funções de alta ordem
 
-├── 12-programacao-logica/         # Problema modelado em lógica (estilo Prolog)
+├── 12-programacao-logica/       
+# Problema modelado em lógica (estilo Prolog)
 
-├── 13-scripts-web/                # Script de automação ou manipulação de dados
+├── 13-scripts-web/               
+# Script de automação ou manipulação de dados
 
-└── 14-tendencias/                 # Análise crítica de linguagem emergente
+└── 14-tendencias/                
+# Análise crítica de linguagem emergente
