@@ -13,11 +13,11 @@ Este documento apresenta uma comparação simples entre os sistemas de tipagem d
 x = 10         # x é um inteiro
 print(type(x)) # <class 'int'>
 
-x = "texto"    # agora x é uma string
+x = "texto"    
 print(type(x)) # <class 'str'>
 
 # Tentativa de operação inválida gera erro
-y = 5 + "3"    # TypeError: unsupported operand types for +: 'int' and 'str'
+y = 5 + "3"    
 ```
 
 ---
@@ -32,14 +32,15 @@ Conversões implícitas são limitadas e explícitas quando necessário.
 
 ```csharp
 int x = 10;        // declaração explícita do tipo int
-// x = "texto";    // Erro de compilação: não pode atribuir string a int
+    x = "texto";    // Erro de compilação: não pode atribuir string a int
 
 string s = "texto"; 
-// int y = s;      // Erro de compilação: tipos incompatíveis
+ int y = s;      // Erro de compilação: tipos incompatíveis
 
 int a = 5;
 int b = 3;
 int c = a + b;     // soma válida entre inteiros
+
 ```
 
 **Comentários:**

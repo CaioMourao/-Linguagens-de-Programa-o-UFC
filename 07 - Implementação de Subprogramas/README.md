@@ -1,5 +1,3 @@
-# Exemplo Recursivo Intermediário: Soma dos Elementos de uma Lista (C#)
-
 ## Contexto
 
 Vamos calcular a soma de todos os elementos de uma lista usando recursão. A função vai somar o primeiro elemento com a soma recursiva do restante da lista.
