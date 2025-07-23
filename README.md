@@ -21,9 +21,9 @@ A proposta consiste em resolver 14 desafios temáticos, cada um abordando um dos
 
 ├── 05-estruturas-de-controle/     # Exemplo com estruturas de seleção e repetição
 
-├── 06-subprogramas/               # Funções com passagem por valor e referência
+├── 06-subprogramas/                 # Funções com passagem por valor e referência
 
-├── 07-implementacao-subprogramas/ # Pilha de chamadas de um exemplo recursivo
+├── 07-implementacao-subprogramas/   # Pilha de chamadas de um exemplo recursivo
 
 ├── 08-orientacao-objetos/         # Hierarquia de classes com POO
 
