@@ -2,6 +2,13 @@
 
 Este desafio tem como objetivo apresentar uma visão histórica da evolução das linguagens de programação. A linha do tempo a seguir destaca os principais marcos no desenvolvimento dessas linguagens, contextualizando o surgimento de cada uma dentro de seu tempo e necessidade tecnológica.
 
+## 🕰️ Linha do Tempo da Programação
+
+![Linha do Tempo da Programação](linha-do-tempo.png)
+
+> **Autor:** Caio Mourão  
+
+---
 
 ## 🧭 Panorama Histórico
 
