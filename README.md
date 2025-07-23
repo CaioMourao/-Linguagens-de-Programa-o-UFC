@@ -7,9 +7,10 @@ A proposta consiste em resolver 14 desafios temáticos, cada um abordando um dos
 
 # Estrutura
 
--Fundamentos-Linguagens-UFC/
-│
-├── README.md # Visão geral e orientações
+Fundamentos-Linguagens-UFC/
+
+
+├── README.md 
 
 ├── 01-introducao/                 
 # Linha do tempo da evolução das linguagens
