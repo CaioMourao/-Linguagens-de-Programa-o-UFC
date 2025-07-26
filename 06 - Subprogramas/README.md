@@ -4,14 +4,14 @@ Esta parte do projeto apresenta exemplos de como diferentes linguagens de progra
 
 ---
 
-## 🔹 Python
+## Python
 
 Em Python, tipos imutáveis (como inteiros, strings) são passados **por valor aparente**, e objetos mutáveis (como listas, dicionários) se comportam como **por referência**.
 
 - **Tipos imutáveis** (como int, float, str, tuple) se comportam como **passagem por valor aparente**. Isso significa que, ao passar uma variável para a função, o valor é copiado e alterações dentro da função **não afetam** o valor original.
 - **Tipos mutáveis** (como list, dict, set) são passados como **referência**, e alterações feitas dentro da função **afetam o objeto original**.
 
-### 🧪 Exemplo de Código:
+### Exemplo de Código:
 
 ```python
 def alterar_valor(x):
@@ -31,7 +31,7 @@ alterar_lista(b)
 print("Fora da função (b):", b)  
 ```
 
-### ✅ Explicação
+### Explicação
 
 - a = 10 é um valor inteiro (**imutável**).  
   A função alterar_valor(a) altera apenas a **cópia** da variável, e **não** o valor original.  
@@ -42,7 +42,7 @@ print("Fora da função (b):", b)
   O valor de b fora da função torna-se [1, 2, 3, 4].
 ---
 
-## 🔹 C#
+## C#
 
 Em C#, valores simples (como int, float) são passados por **valor** por padrão, mas você pode forçar a passagem por **referência** usando ref ou out.
 
@@ -54,7 +54,7 @@ Em C#, valores simples (como int, float) são passados por **valor** por padrão
 
 - O modificador out funciona de maneira semelhante ao ref, mas é usado quando você deseja **retornar múltiplos valores** de uma função. A principal diferença é que o parâmetro out **não precisa estar inicializado** antes da chamada da função.
 
-### 🧪 Exemplo de Código:
+### Exemplo de Código:
 ```csharp
 using System;
 
@@ -81,7 +81,7 @@ class Program {
 }
 ```
 
-### ✅ Explicação
+### Explicação
 
 - PorValor(int x) recebe uma **cópia** da variável a, então qualquer alteração feita dentro da função **não afeta** o valor original.  
   Resultado: a continua com o valor 10 fora da função.
@@ -90,14 +90,14 @@ class Program {
   Como o parâmetro foi passado com ref, a função altera o valor original.  
   Resultado: b passa a valer 100 fora da função também.
 
-> 🔎 Observação: Em C#, para passar por referência é necessário usar ref **tanto na definição da função quanto na chamada**.
+>  Em C#, para passar por referência é necessário usar ref **tanto na definição da função quanto na chamada**.
 ---
 
-## 🔹 JavaScript
+## JavaScript
 
 Em JavaScript, tipos primitivos (number, string, boolean) são passados **por valor**, enquanto **objetos** e **arrays** são passados **por referência**.
 
-### 🧪 Exemplo de Código:
+### Exemplo de Código:
 ```javascript
 function alterarNumero(x) {
     x = 100;
@@ -118,7 +118,7 @@ alterarArray(b);
 console.log("Fora da função (b):", b); 
 ```
 
-### ✅ Explicação
+### Explicação
 
 - Na função alterarNumero(x), o parâmetro x é um tipo primitivo (número).  
   Ele é passado **por valor**, ou seja, a função recebe uma cópia do valor.  
