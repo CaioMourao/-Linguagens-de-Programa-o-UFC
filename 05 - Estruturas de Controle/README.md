@@ -72,6 +72,3 @@ python cadastro_convidados.py
 
 ---
 
-##  Observações
-
-Esse sistema simples pode ser estendido com mais funcionalidades, como salvar os dados em arquivo, remover convidados e exportar a lista para PDF ou Excel. É um ótimo exercício para consolidar **estruturas condicionais, laços de repetição e manipulação de listas**.
