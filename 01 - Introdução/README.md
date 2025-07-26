@@ -2,7 +2,7 @@
 
 Este desafio tem como objetivo apresentar uma visão histórica da evolução das linguagens de programação. A linha do tempo a seguir destaca os principais marcos no desenvolvimento dessas linguagens, contextualizando o surgimento de cada uma dentro de seu tempo e necessidade tecnológica.
 
-## 🕰️ Linha do Tempo da Programação
+## Linha do Tempo da Programação
 
 ![Linha do Tempo da Programação](linha-do-tempo.png)
 
@@ -10,7 +10,7 @@ Este desafio tem como objetivo apresentar uma visão histórica da evolução da
 
 ---
 
-## 🧭 Panorama Histórico
+## Panorama Histórico
 
 Desde os primórdios da computação, a criação de linguagens de programação esteve ligada à busca por **abstrações mais compreensíveis**, **automatização de processos** e **acesso ampliado ao poder de cálculo das máquinas**.
 
@@ -18,7 +18,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### 🟣 1957 – **Fortran (IBM)**  
+### 1957 – **Fortran (IBM)**  
 - **Contexto:** Em plena Guerra Fria, havia uma demanda crescente por cálculos científicos e engenharia avançada.
 - **História:**
   - Desenvolvida por uma equipe da IBM liderada por John Backus.
@@ -29,7 +29,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### 🔵 1959 – **COBOL**  
+### 1959 – **COBOL**  
 - **Contexto:** Expansão do uso de computadores no setor comercial e governamental.
 - **História:**
   - Criada por um comitê liderado por Grace Hopper, com apoio do Departamento de Defesa dos EUA.
@@ -39,7 +39,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### ⚫ 1964 – **BASIC**  
+### 1964 – **BASIC**  
 - **Contexto:** Popularização dos computadores em universidades.
 - **História:**
   - Criada por John Kemeny e Thomas Kurtz no Dartmouth College.
@@ -49,7 +49,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### 🔷 1966 – **ALGOL**  
+### 1966 – **ALGOL**  
 - **Contexto:** Necessidade de padronização de algoritmos entre cientistas europeus e americanos.
 - **História:**
   - Desenvolvida por um comitê internacional.
@@ -59,7 +59,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### 🟠 1972 – **C**  
+### 1972 – **C**  
 - **Contexto:** Desenvolvimento do sistema operacional UNIX nos laboratórios Bell.
 - **História:**
   - Criada por Dennis Ritchie para substituir o Assembly no desenvolvimento do UNIX.
@@ -69,7 +69,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### 🔵 1983 – **C++**  
+### 1983 – **C++**  
 - **Contexto:** Avanço da engenharia de software e da programação orientada a objetos (POO).
 - **História:**
   - Desenvolvida por Bjarne Stroustrup como uma extensão orientada a objetos da linguagem C.
@@ -78,7 +78,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### 🟡 1991 – **Python**  
+### 1991 – **Python**  
 - **Contexto:** Necessidade de uma linguagem simples e legível para desenvolvimento rápido.
 - **História:**
   - Criada por Guido van Rossum na Holanda.
@@ -97,7 +97,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### 🟨 1995 – **JavaScript**  
+### 1995 – **JavaScript**  
 - **Contexto:** Explosão da web nos anos 1990 e necessidade de páginas mais interativas.
 - **História:**
   - Criado por Brendan Eich na Netscape em apenas 10 dias.
@@ -117,7 +117,7 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-### 🟣 2000 – **C#**  
+### 2000 – **C#**  
 - **Contexto:** Consolidação da plataforma .NET pela Microsoft.
 - **História:**
   - Criada por Anders Hejlsberg como uma linguagem moderna, segura e poderosa para o desenvolvimento de aplicações Windows.
@@ -126,6 +126,6 @@ Abaixo, apresentamos os marcos históricos mais relevantes:
 
 ---
 
-## 🧠 Conclusão
+## Conclusão
 
 O surgimento e a evolução das linguagens de programação refletem as necessidades tecnológicas de cada época. De ferramentas científicas e comerciais a soluções para a internet e a inteligência artificial, essas linguagens moldaram não apenas o desenvolvimento de software, mas o próprio avanço da sociedade digital.
