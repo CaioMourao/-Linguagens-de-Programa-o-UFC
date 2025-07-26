@@ -1,33 +1,33 @@
-# 🔐 Cenário Prático: Verificação de Senhas em Lote com Concorrência
+# Cenário Prático: Verificação de Senhas em Lote com Concorrência
 
-## 🧩 Contexto
+## Contexto
 Em muitos sistemas, é comum validar se uma lista de senhas atende aos critérios de segurança (comprimento, uso de símbolos, números etc.). Quando temos centenas ou milhares de senhas para validar, uma abordagem sequencial pode se tornar lenta. Utilizar concorrência com System.Threading permite distribuir essa carga de trabalho e melhorar a performance.
 
 ---
 
-## ❗ O Problema (Abordagem Sequencial)
+## Abordagem Sequencial
 
 Dada uma lista de 10.000 senhas para verificar, o sistema valida uma por uma, usando apenas um núcleo do processador.  
 Se cada senha levar 2ms para ser verificada, o tempo total será de **~20 segundos**.
 
 ---
 
-## ✅ A Solução (Abordagem Concorrente)
+## Abordagem Concorrente
 
 Criamos múltiplas **threads**, cada uma responsável por um grupo de senhas.  
 Com 8 núcleos, podemos paralelizar a validação e reduzir significativamente o tempo total de execução.
 
 ---
 
-## 💻 Implementação em C# (VerificadorDeSenhas.cs)
+## Implementação em C# (VerificadorDeSenhas.cs)
 
 A implementação simula a validação de um lote de senhas, primeiro de forma **sequencial** e depois com **múltiplas threads**, comparando os tempos.
 
 ---
 
-## ⚙️ Explicação da Implementação
+## Explicação da Implementação
 
-### 🧠 Função de Trabalho: VerificarSenha
+### Função de Trabalho: VerificarSenha
 
 - Recebe uma string representando a senha.
 - Simula verificação computacional com Thread.Sleep().
@@ -39,13 +39,13 @@ A implementação simula a validação de um lote de senhas, primeiro de forma *
 
 ---
 
-### 🔁 Execução Sequencial
+### Execução Sequencial
 
 - Um foreach tradicional percorre a lista e chama VerificarSenha.
 
 ---
 
-### 🧵 Execução Concorrente
+### Execução Concorrente
 
 - Para cada grupo de senhas, uma nova Thread é criada.
 - Todas as threads são iniciadas e armazenadas em uma lista.
@@ -53,13 +53,13 @@ A implementação simula a validação de um lote de senhas, primeiro de forma *
 
 ---
 
-### ⏱️ Medição de Performance
+### ⏱Medição de Performance
 
 - Usamos System.Diagnostics.Stopwatch para medir com precisão o tempo de execução em ambas abordagens.
 
 ---
 
-## 📊 Comparação
+## Comparação
 
 | Estratégia   | Núcleos Utilizados | Tempo Estimado  |
 |--------------|--------------------|------------------|
@@ -68,7 +68,7 @@ A implementação simula a validação de um lote de senhas, primeiro de forma *
 
 ---
 
-## ▶️ Como Usar
+## Como Usar
 
 1. Crie um arquivo chamado VerificadorDeSenhas.cs.
 2. Copie o código correspondente (fornecido separadamente).
