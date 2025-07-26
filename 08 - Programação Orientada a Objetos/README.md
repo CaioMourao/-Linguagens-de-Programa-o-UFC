@@ -1,17 +1,17 @@
-## 🧠 Contexto 
+## Contexto 
 
 A Programação Orientada a Objetos (POO) é uma abordagem poderosa que facilita a construção de sistemas complexos ao se basear em elementos do mundo real. Neste desafio, foi criado um sistema voltado para o gerenciamento de serviços de entrega de encomendas, um cenário comum e prático que permite aplicar, de forma clara e objetiva, os principais conceitos da POO
 ---
 
-## ⚙️ POO
+## POO
 
 Este projeto foi cuidadosamente estruturado para ilustrar os quatro pilares fundamentais da Programação Orientada a Objetos:
 
-### 🔹 Abstração
+### Abstração
 A classe Servico foi definida como **abstrata**.  
 Ela estabelece o **contrato mínimo** que qualquer tipo de serviço deve seguir (neste caso, o método RealizarServico()), sem permitir a criação direta de uma instância genérica.
 
-### 🔹 Herança
+### Herança
 A classe Entrega herda de Servico, e serve como base para outras especializações.  
 A partir dela, criamos:
 
@@ -20,11 +20,11 @@ A partir dela, criamos:
 
 Cada subclasse herda atributos e métodos da classe Entrega, e adiciona comportamentos específicos.
 
-### 🔹 Encapsulamento
+### Encapsulamento
 As propriedades internas, como Status, estão protegidas por modificadores como protected set, garantindo que não possam ser alteradas fora das classes apropriadas.  
 Isso mantém a **integridade dos dados** e evita acessos indevidos.
 
-### 🔹 Polimorfismo
+### Polimorfismo
 O método RealizarServico() é definido como **abstrato** na classe Servico, e cada tipo de entrega implementa sua própria versão.  
 Isso permite usar **polimorfismo** no programa principal, com chamadas uniformes:
 
@@ -35,7 +35,7 @@ foreach (var entrega in listaDeEntregas)
 }
 ```
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 O sistema foi organizado de forma modular, com cada classe definida em seu próprio arquivo para facilitar a leitura, manutenção e reutilização do código. Abaixo estão os principais arquivos que compõem a aplicação:
 
