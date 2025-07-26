@@ -1,21 +1,21 @@
 
-# 🧠 Desafio 03 - Sintaxe e Semântica
+# Desafio 03 - Sintaxe e Semântica
 
 Este desafio propõe a criação de uma **mini-gramática fictícia** para uma linguagem inventada, junto com exemplos de **análise léxica** e **sintática**. O objetivo é compreender os conceitos formais por trás das linguagens de programação: **tokens**, **gramática**, **análise léxica**, **parsing** e **semântica estrutural**.
 
 ---
 
-## 🧪 Linguagem: **CT**
+## Linguagem: **CT**
 
 **CT** é uma linguagem fictícia criada com sintaxe simples, voltada para operações aritméticas básicas e controle condicional. A ideia é representar uma linguagem minimalista semelhante ao pseudocódigo, mas com regras formais.
 
 ---
 
-## 🔤 Análise Léxica
+## Análise Léxica
 
 A análise léxica consiste em **quebrar o código-fonte em tokens válidos**.
 
-### 🧱 Tokens da Linguagem CT:
+### Tokens da Linguagem CT:
 
 | Tipo       | Padrão (Regex simplificado) | Exemplos       |
 |------------|-----------------------------|----------------|
@@ -33,7 +33,7 @@ A análise léxica consiste em **quebrar o código-fonte em tokens válidos**.
 
 ---
 
-## 📚 Gramática em EBNF da Linguagem CT
+## Gramática em EBNF da Linguagem CT
 
 A gramática a seguir define a estrutura sintática da linguagem **CT** em **EBNF (Extended Backus-Naur Form)**:
 
@@ -63,15 +63,15 @@ A gramática a seguir define a estrutura sintática da linguagem **CT** em **EBN
 
 ---
 
-## 🧠 Semântica
+## Semântica
 
-### ✅ Semântica Estática
+### Semântica Estática
 
 - Todas as variáveis armazenam valores numéricos (inteiros).
 - Toda variável deve ser atribuída antes de ser usada.
 - Operadores aritméticos e relacionais operam apenas sobre números.
 
-### ⚙️ Semântica Dinâmica
+###  Semântica Dinâmica
 
 - Atribuições atualizam o ambiente de variáveis.
 - Expressões são avaliadas da esquerda para a direita.
@@ -80,7 +80,7 @@ A gramática a seguir define a estrutura sintática da linguagem **CT** em **EBN
 
 ---
 
-## 🧾 Exemplo de Código em CT
+## Exemplo de Código em CT
 
 ```ct
 // Inicializa a variável x com 10
@@ -98,7 +98,7 @@ end
 
 ---
 
-## 🔍 Tokens Gerados pelo Lexer
+## Tokens Gerados pelo Lexer
 
 ```
 ID("x"), ATRIB("="), NUM("10"), SEMI(";")
@@ -110,6 +110,3 @@ END("end")
 
 ---
 
-## 🚀 Observações
-
-Essa mini-linguagem foi criada apenas para fins educacionais, visando demonstrar os conceitos de análise léxica, gramática EBNF e semântica de linguagens de programação.
