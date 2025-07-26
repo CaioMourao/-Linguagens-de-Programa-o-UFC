@@ -53,7 +53,7 @@ A implementação simula a validação de um lote de senhas, primeiro de forma *
 
 ---
 
-### ⏱Medição de Performance
+### Medição de Performance
 
 - Usamos System.Diagnostics.Stopwatch para medir com precisão o tempo de execução em ambas abordagens.
 
