@@ -4,7 +4,7 @@ Este desafio tem como objetivo apresentar e comparar os **três principais model
 
 ---
 
-## 🧭 Mapa Conceitual
+## Mapa Conceitual
 
 ![Mapa Conceitual dos Ambientes de Programação](Mapa-conceitual.png)
 
@@ -12,9 +12,9 @@ Este desafio tem como objetivo apresentar e comparar os **três principais model
 
 ---
 
-## 🧱 Tipos de Ambientes de Execução
+##  Tipos de Ambientes de Execução
 
-### 🔹 1. Compilação Direta para Código de Máquina
+###  1. Compilação Direta para Código de Máquina
 
 - **Exemplo de linguagem:** C
 - **Processo:**
@@ -26,7 +26,7 @@ Este desafio tem como objetivo apresentar e comparar os **três principais model
 
 ---
 
-### 🟧 2. Interpretação
+###  2. Interpretação
 
 - **Exemplos de linguagens:** Python, JavaScript, Ruby
 - **Processo:**
@@ -38,7 +38,7 @@ Este desafio tem como objetivo apresentar e comparar os **três principais model
 
 ---
 
-### 🟪 3. Compilação Intermediária com Máquina Virtual
+### 3. Compilação Intermediária com Máquina Virtual
 
 - **Exemplos de linguagens:** Java, C#, Kotlin
 - **Processo:**
@@ -53,13 +53,13 @@ Este desafio tem como objetivo apresentar e comparar os **três principais model
 
 ---
 
-## 🧠 Conclusão
+##  Conclusão
 
 Cada abordagem de execução surgiu para atender diferentes necessidades tecnológicas e contextos históricos. A escolha entre compilação, interpretação ou uso de máquina virtual depende de fatores como desempenho, portabilidade, segurança e tipo de aplicação.
 
 ---
 
-## 📂 Arquivos
+##  Arquivos
 
 - Mapa-conceitual.png: imagem contendo o mapa visual dos tipos de ambientes de execução (Lucidcharto).
 
